@@ -31,3 +31,8 @@
 .card-content .fa-share-alt{
     color: green;
 }
+
+.carousel{
+    perspective: 900px;
+    height: 280px;
+}
