@@ -9,6 +9,7 @@ import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.comp
 import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 import { SlidesComponent } from './landing-page/slides/slides.component';
 import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly-bilboards.component';
+import { PremiersComponent } from './landing-page/premiers/premiers.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { WeeklyBilboardsComponent } from './landing-page/weekly-bilboards/weekly
     NavbarMenuComponent,
     MoviesFilterComponent,
     SlidesComponent,
-    WeeklyBilboardsComponent
+    WeeklyBilboardsComponent,
+    PremiersComponent
   ],
   imports: [
     BrowserModule,
